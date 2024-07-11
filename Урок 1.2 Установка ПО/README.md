@@ -13,8 +13,11 @@
 ![image](https://github.com/amelinvladimir/sql_course/assets/8919281/59580112-75b4-40b0-a86e-a0378fc48845)
 
 #### Шаг 2. Устанавливаем PostgreSQL из дистрибутива
+Запустите установку из дистрибутива.
+
 При выборе списка компонентов для установки нужно снять галочку с pgAdmin
 ![image](https://github.com/amelinvladimir/sql_course/assets/8919281/09cdaeea-b35e-4dd1-8f21-cb69cd8925e6)
+
 
 
 ### Вариант установки 2. Из docker образа.
