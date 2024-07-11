@@ -1,6 +1,6 @@
-# Этап 1. Установка PostgreSQL
+## Этап 1. Установка PostgreSQL
 
-## Шаг 1. Скачиваем дистрибутив PostgreSQL с сайта https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+### Шаг 1. Скачиваем дистрибутив PostgreSQL с сайта https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 Выбираем дистрибутив c последней доступной версии на вашей операционной системе (ОС).
 После нажатия на ссылку откроется окно, в котором скачивание должно начаться автоматически.
 
