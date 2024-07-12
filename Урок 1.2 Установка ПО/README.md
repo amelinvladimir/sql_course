@@ -33,6 +33,10 @@
 
 ### Вариант установки 2. Из docker образа.
 
+#### Шаг 1. Скачиваем дистрибутив Docker Desktop по [ссылке](https://www.docker.com/products/docker-desktop/), если он еще не стоит на компьютере.
+
+#### Шаг 2. Устанавливаем Docker Desktop из дистрибутива, если он еще не стоит на компьютере.
+
 ## Этап 3. Подключаемся к базе данных с помощью DBeaver
 ![image](https://github.com/user-attachments/assets/b88b49dc-e6b3-44a3-a460-151cc524185a)
 
