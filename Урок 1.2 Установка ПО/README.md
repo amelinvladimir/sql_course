@@ -25,10 +25,7 @@
 При выборе списка компонентов для установки нужно снять галочку с pgAdmin
 ![image](https://github.com/amelinvladimir/sql_course/assets/8919281/09cdaeea-b35e-4dd1-8f21-cb69cd8925e6)
 
-В остальных пунктах оставьте значения по умолчанию.
-
-Начните установку:
-![image](https://github.com/user-attachments/assets/b0f74fee-49a8-4050-af0e-ae0eee935287)
+В остальных пунктах оставьте значения по умолчанию и начните установку.
 
 После завершения установки снимите галочку со Stack Builder и завершите установку:
 ![image](https://github.com/user-attachments/assets/2752e447-9632-42f3-a26f-05bb26aa50c9)
