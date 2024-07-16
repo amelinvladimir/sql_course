@@ -33,7 +33,9 @@
 
 ### Вариант установки 2. Из docker образа.
 
-#### Шаг 1. Скачиваем дистрибутив Docker Desktop по [ссылке](https://www.docker.com/products/docker-desktop/), если он еще не стоит на компьютере.
+#### Шаг 1. Устанавливаем Docker Desktop, если если он еще не стоит на компьютере.
+[Инструкция по установке Docker Desktop и wsl2 на Windows 10.](https://github.com/amelinvladimir/docker_course/blob/main/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20Docker%20%D0%BD%D0%B0%20Windows%2010/README.md)
+
 
 #### Шаг 2. Устанавливаем Docker Desktop из дистрибутива, если он еще не стоит на компьютере.
 
