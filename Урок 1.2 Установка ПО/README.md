@@ -105,6 +105,8 @@ docker run --name postgresdb -e POSTGRES_PASSWORD=pass -d -p 5432:5432 postgres
 
 #### Шаг 1. Скачиваем учебную бд.
 [Ссылка для скачивания](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/).
+[Альтернативная ссылка для скачивания](https://github.com/amelinvladimir/sql_course/blob/main/%D0%A3%D1%80%D0%BE%D0%BA%201.2%20%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%9F%D0%9E/dvdrental.zip) - нажмите на троеточие и затем Download.
+![image](https://github.com/user-attachments/assets/1566954f-3bae-4785-8644-52348755e5dc)
 
 
 ## Этап 5. Устанавливаем инструмент, который умеет делать скриншоты.
