@@ -73,7 +73,7 @@ docker run --name postgresdb -e POSTGRES_PASSWORD=pass -d -p 5432:5432 postgres
 ````
 
 
-## Этап 3. Подключаемся к базе данных с помощью DBeaver
+## Этап 3. Подключаемся к базе данных с помощью DBeaver.
 
 #### Шаг 1. Открываем DBeaver.
 
@@ -101,6 +101,10 @@ docker run --name postgresdb -e POSTGRES_PASSWORD=pass -d -p 5432:5432 postgres
 
 Нажмите "Ок".
 
-## Этап 4. Разворачиваем учебную базу данных
+## Этап 4. Разворачиваем учебную базу данных.
 
-## Этап 5. Устанавливаем инструмент, который умеет делать скриншоты
+#### Шаг 1. Скачиваем учебную бд.
+[Ссылка для скачивания](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/).
+
+
+## Этап 5. Устанавливаем инструмент, который умеет делать скриншоты.
