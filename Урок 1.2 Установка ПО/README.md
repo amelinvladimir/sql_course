@@ -93,9 +93,11 @@ docker run --name postgresdb -e POSTGRES_PASSWORD=pass -d -p 5432:5432 postgres
 Пользователь: postgres
 ```
 Если вы установили postgres из дистрибутива, то нужно указать пароль, который вы задали при установке.
+
 Если вы развернули postgres в контейнере, то используйте пароль pass
 
 Нажмите "Тест соединения".
+
 Если вы увидите "Соединено", значит подключение настроено корректно.
 ![image](https://github.com/user-attachments/assets/c69eca8c-535f-45bf-9ac8-bbfb68e8c710)
 
@@ -105,8 +107,45 @@ docker run --name postgresdb -e POSTGRES_PASSWORD=pass -d -p 5432:5432 postgres
 
 #### Шаг 1. Скачиваем учебную бд.
 [Ссылка для скачивания](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/).
+
 [Альтернативная ссылка для скачивания](https://github.com/amelinvladimir/sql_course/blob/main/%D0%A3%D1%80%D0%BE%D0%BA%201.2%20%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%9F%D0%9E/dvdrental.zip) - нажмите на троеточие и затем Download.
 ![image](https://github.com/user-attachments/assets/1566954f-3bae-4785-8644-52348755e5dc)
 
+#### Шаг 2. Извлеките файл dvdrental.tar из архива с учебной бд dvdrental.zip.
+
+#### Шаг 3. Разворачиваем учебную бд.
+Разверните подключение, нажав на стрелку рядом с ним:
+![image](https://github.com/user-attachments/assets/0252ce2b-f208-4347-8f81-8ad8d3ea9b1a)
+
+Нажмите правой кнопкой мыши на название бд "postgres" и затем выберите "Инструменты" -> "Восстановить"
+![image](https://github.com/user-attachments/assets/100fdc68-c6da-430d-b8bb-8aec07b2fb17)
+
+
+Выберите формат tar.
+
+Укажите путь к файлу dvdrental.tar. При выборе файла убедитесь, что выбран формат файла *.
+Нажмите "Старт".
+![image](https://github.com/user-attachments/assets/0dc16c05-0251-4c83-b90d-477e0b029a3e)
+
+После того, как увидите сообщение "Task 'PostgreSQL restore' finished" нажмите кнопку "Отмена".
+![image](https://github.com/user-attachments/assets/b458bc00-377e-47e5-93b8-0cf70eff22ab)
+
+#### Шаг 4. Проверяем установку бд.
+
+Нажмите правой кнопкой мыши на название бд "postgres" и выберите "Обновить".
+![image](https://github.com/user-attachments/assets/d22f7cd5-fd8d-4d11-8d9c-288b55068a9d)
+
+Разверните пункты "Схемы", "public", "Таблицы". Вы должны увидеть список загруженных таблиц.
+
+![image](https://github.com/user-attachments/assets/7a709381-2e49-4ffa-8fd1-0d544d37ea94)
+
+
+Учебная БД успешно развернута :tada::tada::tada:
 
 ## Этап 5. Устанавливаем инструмент, который умеет делать скриншоты.
+
+#### Шаг 1. Скачиваем и устанавливаем, если у вас еще не установлен на компьютере аналогичный инструмент.
+
+[Для Windows](https://app.prntscr.com/ru/)
+
+[Для MacOS](https://apps.apple.com/app/iscreen-shoter-screenshot-app/id1596559494?mt=12&src=iScreenShoterShare.com)
