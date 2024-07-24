@@ -47,3 +47,11 @@ select
 from
 	film;
 ```
+
+```sql
+select
+	trim(trailing ' ' || first_name || ' ') as trimmedFirstName,
+	rtrim(' ' || first_name || ' ') rtrimmed
+from
+	actor;
+```
