@@ -5,4 +5,4 @@
 
 Подписывайтесь на [канал с новостями в телеграме](https://t.me/dwhlearn)
 
-Сдавать домашние задания вы можете на [странице курса](https://itempuniversity.com/course/view.php?id=533)
+Проходите курс и сдавайте домашние задания на [странице курса](https://itempuniversity.com/course/view.php?id=533)
