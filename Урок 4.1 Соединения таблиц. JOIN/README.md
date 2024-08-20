@@ -126,10 +126,10 @@ ON
 ```
 ```sql
 SELECT 
-      f.title,
-      a.first_name || ' ' || a.last_name AS actor_name
+        f.title,
+        a.first_name || ' ' || a.last_name AS actor_name
 FROM 
-      film f,actor a;
+        film f,actor a;
 ```
 ```sql
 SELECT
