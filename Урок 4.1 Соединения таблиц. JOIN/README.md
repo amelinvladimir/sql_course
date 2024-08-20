@@ -59,7 +59,7 @@ FROM
 ```
 
 ```sql
-SELECT  DISTINCT
+SELECT DISTINCT
         a.first_name || ' ' || a.last_name AS actor_name
 FROM
 	film_actor fa
@@ -121,7 +121,6 @@ SELECT
 FROM
 	film f
 INNER JOIN actor a
-
 ON
 	TRUE;
 ```
