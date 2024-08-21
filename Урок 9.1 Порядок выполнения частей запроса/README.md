@@ -8,7 +8,7 @@ from
 	film f
 limit 10;
 
--- 1 with
+        -- 1 with
 with film_amount as (
 select
 	i.film_id,
@@ -22,8 +22,8 @@ join payment p
 group by
 	i.film_id
 )
--- 6 select
--- 7 distinct
+        -- 6 select
+        -- 7 distinct
 select
 	distinct
 substring(f.title, 1, 3) as short_title,
