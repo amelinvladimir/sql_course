@@ -1,3 +1,4 @@
+# Условия в выражениях с помощью Case
 ```sql
 select
 	a.first_name || ' ' || a.last_name as actor_name,
