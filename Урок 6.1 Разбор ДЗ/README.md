@@ -66,6 +66,7 @@ where
 	f.rating = 'g';
 ```
 Задание для повторения и закрепления пройденных тем
+
 Запросите список клиентов проката(customer), которые проживают в Калифорнии (address.district)
 Выведите 3 поля: фамилия клиента(customer.last_name), адрес(address.address), район(address.district) Используйте join, where.
 ```sql
