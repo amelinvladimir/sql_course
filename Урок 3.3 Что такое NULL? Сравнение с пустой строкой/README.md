@@ -56,6 +56,6 @@ select
 from
 	address a
 where
-	address2 in ('Moscow', '', null)
+	address2 in ('Moscow', '', null);
 ```
 
