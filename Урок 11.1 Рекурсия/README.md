@@ -172,9 +172,8 @@ select
 from
 	managers;
 ```
-```sql
-- 1 этап
-```
+      - 1 этап
+      
 ```sql
 select
 	e.employee_id,
@@ -191,7 +190,7 @@ where
 	- 18 frank tucker 8
 	- содержимое managers
 	- 18 frank tucker 8
-	- 2 этап
+      - 2 этап
 ```sql
 select
 	e.employee_id,
@@ -210,7 +209,7 @@ on
 	- 8 max mills 2
 	- содержимое managers
 	- 8 max mills 2
-	- 3 этап
+      - 3 этап
 
 ```sql
 select
@@ -223,7 +222,7 @@ join employees e
 on
 	e.employee_id = m.manager_id;
 ```
-	- результат выполнения запроса
+- результат выполнения запроса
 	- 2 megan berry 1
 	- общий результат выполнения cte 
 	- 18 frank tucker 8
@@ -231,7 +230,7 @@ on
 	- 2 megan berry 1
 	- содержимое managers
 	- 2 megan berry 1
-	- 4 этап
+      - 4 этап
 ```sql
 select
 	e.employee_id,
@@ -243,7 +242,7 @@ join employees e
 on
 	e.employee_id = m.manager_id;
 ```
-	- результат выполнения запроса
+- результат выполнения запроса
 	- 1 michael north
 	- общий результат выполнения cte 
 	- 18 frank tucker 8
@@ -252,7 +251,7 @@ on
 	- 1 michael north
 	- содержимое managers
 	- 1 michael north
-	- 5 этап
+      - 5 этап
 ```sql
 select
 	e.employee_id,
@@ -264,7 +263,7 @@ join employees e
 on
 	e.employee_id = m.manager_id;
 ```
-	- результат выполнения запроса
+- результат выполнения запроса
 	- общий результат выполнения cte 
 	- 18 frank tucker 8
 	- 8 max mills 2
