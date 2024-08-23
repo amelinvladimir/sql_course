@@ -122,5 +122,5 @@ select
 		else 1 / div(f.rental_rate, 1)
 	end
 from
-film f
+film f;
 ```
