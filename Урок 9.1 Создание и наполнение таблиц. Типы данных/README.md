@@ -15,22 +15,23 @@ birthday date null,
 registered timestamp default(now()) not null,
 deleted bool default(false) not null
 );
---select * from internet_customer;
--- smallint  2 байта   -32 768..32 767
--- int       4 байта   -2 147 483 648..2 147 483 647
--- bigint    8 байт    -9 223 372 036 854 775 808..9 223 372 036 854 775 807
--- character  char
--- character varying  varchar
--- text
--- float float4 real  4 байта
--- double precision, float8  8 байт
--- numeric(n, m), decimal(n, m)   1 234 567.890   numeric(15, 5)
--- date
--- timestamp 
--- time
--- interval 
---bool
 ```
+-select * from internet_customer;
+- smallint  2 байта   -32 768..32 767
+- int       4 байта   -2 147 483 648..2 147 483 647
+- bigint    8 байт    -9 223 372 036 854 775 808..9 223 372 036 854 775 807
+- character  char
+- character varying  varchar
+- text
+- float float4 real  4 байта
+- double precision, float8  8 байт
+- numeric(n, m), decimal(n, m)   1 234 567.890   numeric(15, 5)
+- date
+- timestamp 
+- time
+- interval 
+-bool
+
 ```sql
 insert
 	into
